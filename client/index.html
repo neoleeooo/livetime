@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div id="app">
+    <label>这里提供了两种启动方式，手动输入开播时间或者输入房间号自动获取开播时间</label>
+    <ol>
+      <li>
+        <div class="time">
+          <label>输入开播时间</label>
+          <input id="inputTime" type="datetime-local"></input>
+        </div>
+      </li>
+
+      <li>
+        <div class="room">
+          <label>输入房间号</label>
+          <input  id="inputRoom" type="number">
+        </div>
+      </li>
+    </ol>
+    <div class="result">
+      <label>复制链接到OBS中:</label>
+      <input id="resultUrl">
+    </div>
+    
+
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
