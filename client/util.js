@@ -1,5 +1,10 @@
 export default function timeToStart(startTime){
+    console.log(`Input Time ${startTime}`);
     let duration = Math.floor((new Date().getTime() - startTime) / 1000);
+    if(duration < 0) {
+        return "00:00:00";
+    }
+
     var hours   = Math.floor(duration / 3600);
     var minutes = Math.floor((duration - (hours * 3600)) / 60);
     var seconds = duration - (hours * 3600) - (minutes * 60);

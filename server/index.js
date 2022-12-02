@@ -1,7 +1,7 @@
 const express = require('express');
 const axios = require('axios')
-var cors = require('cors')
-
+const cors = require('cors')
+const path = require('path')
 
 const port = 3200;
 const app = express();
@@ -9,7 +9,7 @@ app.use(cors({
     origin: '*'
 }));
 
-app.use(express.static('dist'))
+app.use(express.static(path.join(__dirname, 'dist')))
 
 
 const roomStartTime = {}
@@ -70,7 +70,7 @@ app.get("/roomInfo/:roomId",  (req, res)=>{
     })
 
 app.listen(port, ()=>{
-    console.log(`Server Starting at ${port}`)
+    console.log(`Server Starting at http://127.0.0.1:${port}`)
 })
 
 

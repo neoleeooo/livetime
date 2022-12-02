@@ -18,6 +18,7 @@
     "nodemon": "^2.0.20"
   },
   "pkg": {
+    "assets": "dist/**/*",
     "scripts": "index.js",
     "targets": [
       "node16-win-x64"
