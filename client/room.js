@@ -1,4 +1,6 @@
 import timeToStart from './util'
+import './time.css'
+
 let roomId = new URL(document.location).searchParams.get('room');
 
 fetch(`http://127.0.0.1:3200/roomInfo/${roomId}`)

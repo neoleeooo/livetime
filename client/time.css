@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "alibabapuhui";font-weight: 250;src: url("//at.alicdn.com/wf/webfont/smMuyGP3KxyX/rBHg_7FD7W5GvHT5d-tNh.woff2") format("woff2"),
+    url("//at.alicdn.com/wf/webfont/smMuyGP3KxyX/dLOXiZscmcCe58PxGeyxZ.woff") format("woff");
+    font-display: swap;
+  }
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+    font-family: "alimamashuhei";font-weight: 700;src: url("//at.alicdn.com/wf/webfont/smMuyGP3KxyX/KcTnXMFrnbbiIqSAwGexn.woff2") format("woff2"),
+    url("//at.alicdn.com/wf/webfont/smMuyGP3KxyX/NKj37587he5L0Za0cZImm.woff") format("woff");
+    font-display: swap;
+  }
+  #duration{
+    font-family: "alibabapuhui";
+    font-size: 200px;
+  }

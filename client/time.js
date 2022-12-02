@@ -1,4 +1,6 @@
 import timeToStart from './util'
+import './time.css'
+
 let timeQuery = new URL(document.location).searchParams.get('time');
 
 
